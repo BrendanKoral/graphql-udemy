@@ -1,4 +1,5 @@
 import {GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLList, GraphQLInputObjectType, GraphQLNonNull} from 'graphql'
+import { Comment } from "./Comment"
 import { Author } from "./Author"
 import { fakeDatabase } from "../FakeDatabase"
 

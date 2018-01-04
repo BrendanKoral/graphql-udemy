@@ -25,3 +25,5 @@ const schema = new GraphQLSchema({
         })
     })
 })
+
+export default schema

@@ -2,6 +2,7 @@ import { GraphQLString, GraphQLNonNull, GraphQLInt } from "graphql"
 import { Post, PostInputType } from "../types/Post"
 import { fakeDatabase } from "../FakeDatabase";
 import { CommentInputType } from "../types/Comment";
+import { Comment } from "../types/Comment"
 
 export default {
     addComment: {
